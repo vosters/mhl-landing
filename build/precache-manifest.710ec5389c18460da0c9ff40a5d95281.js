@@ -1,27 +1,31 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "52c2155deb3840ea5b377b30423efd6d",
+    "revision": "9170c96307c195fcddd9b46ad16094b7",
     "url": "/index.html"
   },
   {
-    "revision": "ea258d8c8beed66ab04a",
+    "revision": "645dfb6263496928002c",
     "url": "/static/css/main.7747be13.chunk.css"
   },
   {
-    "revision": "98062c3abf7733473066",
-    "url": "/static/js/2.17ba6d3c.chunk.js"
+    "revision": "6557eeda0a286c414805",
+    "url": "/static/js/2.f1396666.chunk.js"
   },
   {
     "revision": "a127401768c064a925e89f9d8d45b4fa",
-    "url": "/static/js/2.17ba6d3c.chunk.js.LICENSE.txt"
+    "url": "/static/js/2.f1396666.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "ea258d8c8beed66ab04a",
-    "url": "/static/js/main.b5889885.chunk.js"
+    "revision": "645dfb6263496928002c",
+    "url": "/static/js/main.4b9e7463.chunk.js"
   },
   {
     "revision": "58594ef54f047c07335d",
     "url": "/static/js/runtime-main.05106987.js"
+  },
+  {
+    "revision": "6aabf0fcd6afa7888767080a835b3776",
+    "url": "/static/media/MHL-logo-200.6aabf0fc.png"
   },
   {
     "revision": "f1d71f777331fd7e3de116edf4ee3b67",
@@ -64,12 +68,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/media/cynthia-del-rio.9813593c.jpg"
   },
   {
-    "revision": "e0508cc923eb0b5e68ca6783c53d0f1d",
-    "url": "/static/media/kendall.e0508cc9.jpg"
-  },
-  {
-    "revision": "df8fd3efcd662b64b44de07f351c838b",
-    "url": "/static/media/landing-bg.df8fd3ef.jpg"
+    "revision": "1c7d9739c19c96014572cd48f7c90e5d",
+    "url": "/static/media/landing-bg.1c7d9739.jpg"
   },
   {
     "revision": "08e18cb904f0f3c6dd9e3d4ed72e0eca",

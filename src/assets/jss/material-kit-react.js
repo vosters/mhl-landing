@@ -179,6 +179,10 @@ const cardSubtitle = {
   marginTop: "-.375rem"
 };
 
+const textCenter = {
+  textAlign: "center"
+};
+
 export {
   //variables
   drawerWidth,
@@ -213,5 +217,6 @@ export {
   title,
   cardTitle,
   cardLink,
-  cardSubtitle
+  cardSubtitle,
+  textCenter
 };

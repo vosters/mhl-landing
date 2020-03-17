@@ -19,6 +19,7 @@
     "react-router-dom": "5.0.1",
     "react-scripts": "^3.4.0",
     "react-slick": "0.25.2",
+    "react-step-wizard": "^5.3.2",
     "react-swipeable-views": "0.13.3"
   },
   "devDependencies": {
@@ -29,13 +30,13 @@
     "eslint-config-prettier": "6.0.0",
     "eslint-plugin-prettier": "3.1.0",
     "eslint-plugin-react": "7.14.3",
+    "eslint-plugin-react-hooks": "^2.5.0",
     "gulp": "4.0.2",
     "gulp-append-prepend": "1.0.8",
-    "prettier": "1.18.2"
+    "prettier": "1.18.2",
+    "typescript": "^3.5.3"
   },
-  "optionalDependencies": {
-    "typescript": "3.5.3"
-  },
+  "optionalDependencies": {},
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build && gulp licenses",

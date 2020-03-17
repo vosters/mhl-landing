@@ -85,6 +85,20 @@ const signupPageStyle = {
   },
   inputIconsColor: {
     color: "#495057"
+  },
+  textCenter: {
+    textAlign: "center"
+  },
+  flexCenter: {
+    display: "flex",
+    flexFlow: "column",
+    alignItems: "center"
+  },
+  statsButtons: {
+    margin: "10px"
+  },
+  legend: {
+    marginBottom: "20px"
   }
 };
 
