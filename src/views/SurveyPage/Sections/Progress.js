@@ -1,10 +1,13 @@
 import React from "react";
-import { Typography, Paper, LinearProgress } from "@material-ui/core";
-import withStyles from "@material-ui/core/styles/withStyles";
-import styles from "../withStyles";
+import { LinearProgress } from "@material-ui/core";
+import Card from "components/Card/Card.js";
+import CardBody from "components/Card/CardBody.js";
+import { makeStyles } from "@material-ui/core/styles";
+import styles from "assets/jss/material-kit-react/views/loginPage.js";
+const useStyles = makeStyles(styles);
 
 const Progress = props => {
-  const { classes } = props;
+  const classes = useStyles();
 
   const [completed, setCompleted] = React.useState(0);
   const [done, setDone] = React.useState(null);
@@ -15,7 +18,6 @@ const Progress = props => {
         setCompleted(oldCompleted => {
           if (oldCompleted === 100) {
             props.nextStep();
-            // return 0;
             setDone('done')
           }
           const diff = Math.random() * 10;
@@ -37,17 +39,18 @@ const Progress = props => {
   });
 
   return (
-    <main className={classes.main}>
-      <Paper className={classes.paper}>
-        <Typography component="h3" variant="h5">
-          Creating Your Game Plan
-        </Typography>
+    <Card>
+      <CardBody className={classes.flexCenter}>
+        <h3>Creating Your Game Plan</h3>
         <div className={classes.root}>
           <LinearProgress variant="determinate" value={completed} />
         </div>
-      </Paper>
-    </main>
+        <hr/><hr/>
+      </CardBody>
+    </Card>
+
   );
 };
 
-export default withStyles(styles)(Progress);
+// export default withStyles(styles)(Progress);
+export default Progress

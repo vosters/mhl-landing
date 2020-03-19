@@ -39,6 +39,7 @@ function MultipleChoice(props) {
               return (
                 
                 <FormControlLabel
+                  key={option.name}
                   control={
                     <Checkbox
                       checked={props.state[option.name]}

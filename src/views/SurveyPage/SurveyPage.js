@@ -23,6 +23,7 @@ import { default as MultipleChoice } from "./Sections/MultipleChoice";
 import { default as questions } from "./Sections/questions";
 import { default as SingleInput } from "./Sections/SingleInput";
 import { default as Progress } from "./Sections/Progress";
+import { default as Register } from "./Sections/Register";
 
 const useStyles = makeStyles(styles);
 
@@ -48,7 +49,6 @@ export default function SurveyPage(props) {
 
   React.useEffect(() => {
     sessionStorage.setItem("form", JSON.stringify(state.form));
-    console.log("FORM STATE", state.form);
   }, [state]);
 
   return (
@@ -89,7 +89,7 @@ export default function SurveyPage(props) {
                   question={questions.diagnoses}
                 />
                 <Progress />
-                {/* <Register /> */}s
+                <Register/>
               </StepWizard>
             </GridItem>
           </GridContainer>

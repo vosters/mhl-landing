@@ -99,6 +99,12 @@ const signupPageStyle = {
   },
   legend: {
     marginBottom: "20px"
+  },
+  root: {
+    width: "100%",
+    "& > * + *": {
+      marginTop: "10px"
+    }
   }
 };
 

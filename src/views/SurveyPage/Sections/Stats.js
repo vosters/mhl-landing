@@ -19,17 +19,17 @@ const Stats = ({
 
     <div>
       {currentStep > 1 && (
-        <Button onClick={previousStep} variant="contained" simple color="primary" size="lg" style={buttonStyling}>
+        <Button onClick={previousStep} variant="contained" color="primary" style={buttonStyling}>
           Back
         </Button>
       )
       }
       {step < totalSteps ? (
-        <Button onClick={nextStep} variant="contained" simple color="primary" size="lg" style={buttonStyling}>
+        <Button onClick={nextStep} variant="contained" color="primary" style={buttonStyling}>
           Next
         </Button>
       ) : (
-          <Button onClick={nextStep} variant="contained" fullWidth simple color="primary" size="lg">
+          <Button onClick={nextStep} variant="contained" fullWidth color="primary">
             Finish
           </Button>
         )
